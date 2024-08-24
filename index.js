@@ -1,7 +1,7 @@
 const OpenAI = require("openai");
 const { extractTextFromPDF } = require('./text-extractor.js');
 
-let YOUR_OPENAI_API_KEY = 'sk-proj-kZEyMGajVyEv88HtzZrRT3BlbkFJUPbe1jcVfFNJ7CRc6sJa';
+let YOUR_OPENAI_API_KEY = '*********************';
 
 const openai = new OpenAI({
   apiKey: YOUR_OPENAI_API_KEY,
